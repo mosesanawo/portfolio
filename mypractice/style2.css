@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    display: flex;
+    padding: 0px 8px;
+    justify-content: space-between;
+    align-content: center;
+    height: 100px;
+    background: whitesmoke;
+    border-bottom: 4px solid green;
+}
+
+.logo-wrap{
+    display:flex ;
+    flex-direction: column;
+    text-align: centert;
+    justify-content: center;
+    padding: 0px 25px;
+    align-items: center;
+
+}
+
+.logo-wrap img{
+    height: 70px;
+    width: 70px;
+    text-align: center;
+
+}
+
+.logo-wrap span{
+    margin-top: 3px;
+    color: red;
+    font-size: 30px;
+    font-weight: 800;
+    
+}
+
+header nav a{
+    text-decoration: none;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #000;
+    gap: 70px;
+}
+
+header nav{
+    margin-top: 30px;
+    text-align: center;
+    align-items: center;
+}
+
+header span{
+    margin-top: 25px;
+    font-size: 30px;
+    color: #000;
+    font-weight: 400;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.btn-p{
+    font-size: 25px;
+    font-weight: 600;
+    background: blue;
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 30px;
+    height: 50px;
+    border-radius: 40px;
+    border: 2px solid#fff;
+    padding: 10px 20px;
+}
+
+.container{
+    margin-top: 5rem;
+    text-align: center;
+    justify-content: center;
+    text-transform: capitalize;
+}
+
+.container h1{
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: capitalize; 
+}
+
+.container p{
+    color: #666;
+    margin-top: 2rem;
+    line-height: 2rem;
+    text-transform: capitalize;
+    font-size: 22px;
+}
+
+.btn-a{
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: capitalize;
+    background: transparent;
+    border: 2px solid #666;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 20px  70px;
+}
+
+.btn-y{
+   margin-top: 3rem; 
+   font-size: 25px;
+   font-weight: 300px;
+   padding: 20px 50px;
+   background: blue;
+   color: #fff;
+   line-height: 3rem;
+    border: 2px solid #666;
+    border-radius: 10px;
+    text-transform: capitalize;
+    
+}
+
+.btn-x{
+    font-size: 30px;
+    margin-top: 3rem;
+    border: 2px solid #666;
+    background: #666;
+    color: #fff;
+    border-radius: 10px;
+    text-transform: capitalize;
+    padding: 20px 50px;
+    line-height: 3rem;
+}
+
+.btn-x img{
+    height: 50px;
+    width: 50px;
+}
+
+.google-btn{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-weight: 400;
+    text-transform: capitalize;
+    border-radius: 10px;
+    padding: 15px 20px;
+}
+
+.google1{
+    border: 2px solid black;
+    color: #fff;
+    background: #000;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.google2{
+    border: 2px solid black;
+    color: #fff;
+    background: #000;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.befor-a{
+    display: flex;
+    text-align:center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.Chi{
+    gap: 5px;
+    color: #666;
+    padding: 15px 20px;
+}
+
+.Ch2{
+    gap: 5px;
+    color: #666;
+    padding: 15px 20px;
+}
+.befor-a img{
+    height: 50px;
+    width: 50px;
+    border-radius: 56px;
+}
+
+ footer{
+    padding: 70px 7%;
+    background: rgb(14, 16, 19);
+    color: #fff;
+ }
+.footer-content{
+    display: flex;
+    height: 350px;
+    justify-content: space-between;
+    /* width: 100%; */
+    text-justify: auto;
+    
+}
+.foot-item{
+    text-transform: capitalize;
+    color: #D0E2EA;
+    line-height: 2.3rem;
+    margin: 2px  20px;
+    font-size: 16px;
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    font-weight: 800;
+}
+.foot-item span{
+    color: rgb(247, 223, 15);
+    font-size: 25px;
+}
+
+.foot-item a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.footer-a{
+    margin: 20px 0 0;
+    display: flex;
+    font-size: 25px;
+    color: rgba(102, 102, 102, 0.932);
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.footer-a :hover{
+    cursor: pointer;
+    background: green;
+}
+
+#copyright {
+   border-top: 2px solid white;
+   padding: 10px;
+   margin-top: 10px;
+}
+#copyright>span {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 15px; 
+}
+
+.input-select > select{
+    color: #d0e2ea;
+    opacity: 0.5;
+    transition: 0.3s;
+    background: transparent;
+    border: none;
+    width: 170px;
+    outline: none;
+    height: 100%;
+    /* margin-left: 20px; */
+}
+
+.input-select i{
+    margin-left: 10px;
+}
+
+.input-select select option{
+    color: black;
+    font-size: 16px;
+}
+.input-select{
+  border: #d0e2ea solid 1px;
+  display: inline-block;
+    height: 36px;
+    width: 100%;
+    min-width: 224px;
+    margin: 6px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0.5;
+    color: #fff;
+}

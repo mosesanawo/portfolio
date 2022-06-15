@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background: black;
+    border-bottom: 5px solid yellow;
+    padding: 0 7%;
+}
+
+.logo-wrap span{
+    font-size: 35px;
+    font-weight: bold;
+    color: red;
+    text-transform: uppercase;
+}
+
+header nav {
+    display: flex;
+    gap: 65px;
+    color: #ffe605;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+
+}
+
+header nav a{
+    gap: 65px;
+    color: #ffe605;
+    text-decoration: none; 
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 500;
+    
+}
+
+.icon-wrap{
+    font-size: 30px;
+    color: #ffe605;
+    display: flex;
+    gap: 40px;
+}
+
+.logo-wrap img{
+    height: 50px;
+    width: 50px;
+
+}
+
+.icon-wrap i:hover{
+    background: green;
+    color: white;
+    cursor: pointer;
+    padding: 3px;
+}
+
+.logo-wrap{
+    display: flex;
+    flex-direction: column;
+    color: yellow;
+    text-transform: uppercase;
+    text-align: center;
+    align-items: center;
+    font-weight: 500;
+}
+
+.active{
+    background: #ffe605;
+    color: black;
+    height: 100%;
+    width: 72px;
+    padding: 2px;
+    align-items: center;
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+.banner{
+    min-height: 500px;
+    background: black;
+    display: grid;
+    grid-template-columns: 577px 2fr;
+    color: white;
+    padding: 75px 0 20px 95px;
+
+}
+
+.banner-text{
+    margin-top: 63px;
+}
+
+.banner-text h1{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    color: #fff;
+    font-style: normal;
+    text-transform: capitalize;
+    max-width: 334px;
+    font-family: "jost" san-serif;
+}
+
+
+.banner-text p{
+    font-size: 18px;
+    font-family: "jost" san-seri;
+    margin-top: 30px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #ffffff;
+    font-style: normal;
+    max-width: 397px;
+}
+
+.banner-img{
+    height: 770px;
+    width: 720px;
+    top: -200px;
+    position: relative;
+}
+
+.pix-bg{
+    position: absolute;
+    top: 0px;
+    left: -120px;
+    object-fit: contain;
+    width: 720px;
+    height: 700px;
+
+}
+
+.profile-container{
+    padding: 0 82px 70px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 260px;
+    background: black;
+    gap: 23px;
+    color: #faff14;
+    justify-content: center;
+}
+
+.card{
+    height: 218px;
+    width: 287px;
+    border: 5px solid #faff14;
+    border-radius: 0 20px;
+    position: relative;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.circle{
+    height: 56px;
+    width: 56px;
+    border-radius: 100%;
+    background: #faff14;
+    display: grid;
+    place-items: center;
+    color: black;
+    font-size: 30px;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+}
+
+.card h6{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 92px;
+    font-style: normal;
+    font-family:"jost" san-seri ;
+}
+.card p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+    font-style: normal;
+    font-family: "jost" san-seri;
+}
+
+.experince-wrap{
+    min-height: 500px;
+    background: black;
+    color: #ffe605;
+    position: relative;
+    /* text-align: center; */
+    
+
+}
+.experince-wrap img{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.experience{
+    height: 500px;
+    position: absolute;
+    top: 30px;
+    width: 100%;
+    padding: 10px 12%;
+    /* text-align: center; */
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+ul li{
+    list-style: none;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: jost;
+    line-height: 36px;
+    font-style: normal;
+    margin-bottom: 29px;
+}
+.experince-wrap h1{
+    text-align: center;
+    font-family: jost;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 51px;
+    text-transform: capitalize;  
+}
+.ul h1{
+    margin-top: 40px;
+}
+
+.experience h1{
+    margin-bottom: 40px;
+}
+.experience{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 30px;
+    /* width: 100%; */
+}
